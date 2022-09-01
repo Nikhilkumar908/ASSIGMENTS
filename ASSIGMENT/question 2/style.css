@@ -1,0 +1,224 @@
+body{
+    /* display: flex; */
+    background: rgb(140, 180, 231);
+}
+.main{
+    display: flex;
+}
+.main h1{
+    display: block;
+    margin-left: 490px;
+    margin-top: 50px;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.5s;
+}
+.links ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: #ff004f;
+    display: flex;
+}
+.tabs{
+    display: flex;
+}
+li a{
+    color: black;
+    margin-left: 170px;
+    margin-top: 10px;
+    font-size: 30px;
+    display: block;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #fff;
+    transition: background 0.5s;
+}
+li a:hover{
+    background: rgb(50, 221, 127);
+}
+.term{
+    margin-top: 150px;
+    margin-left: 520px;
+    color: #ff004f;
+}
+.image{
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    margin-left: 190px;
+    align-items: center;
+}
+/* ****************Product 1 css *****************/
+.toys{
+    margin-left: 400px;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    display: block;
+}
+.toys img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.action-fig{
+    color: black;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-size: 40px;
+    display: block;
+    width: fit-content;
+    /* border: 1px solid black; */
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* background: #fff; */
+    /* transition: background 0.5s; */
+}
+.toy-para{
+    text-align: center;
+    justify-content: center;
+    margin-left: 415px;
+    margin-top: 420px;
+    font-size: 20px;
+    width: 500px;
+}
+
+
+/* ****************Product 2 css *****************/
+.mobiles{
+    margin-left: 480px;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    display: block;
+}
+.mobiles img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.realme{
+    color: black;
+    margin-left: 520px;
+    margin-top: 10px;
+    font-size: 40px;
+    display: block;
+    width: fit-content;
+    /* border: 1px solid black; */
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* background: #fff; */
+    /* transition: background 0.5s; */
+}
+.mobile-para{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -220px;
+    font-size: 20px;
+    width: 550px;
+}
+
+/* ****************Product 3 css *****************/
+.Laptops{
+    margin-left: 420px;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    display: block;
+}
+.Laptops img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.dell{
+    color: black;
+    margin-left: 590px;
+    margin-top: 10px;
+    font-size: 40px;
+    display: block;
+    width: fit-content;
+    /* border: 1px solid black; */
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* background: #fff; */
+    /* transition: background 0.5s; */
+}
+.Laptop-para{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -220px;
+    font-size: 20px;
+    width: 550px;
+}
+.features{
+    color: #fff;
+}
+/* ****************Hover effect****************** */
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 0 0px; */
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+.layer h3{
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+}
+.layer ul li{
+    color: #fff;
+    text-align: left;
+    justify-content: left;
+}
+.toys:hover img{
+    transform: scale(1.1);
+}
+.toys:hover .layer{
+    height: 100%;
+}
+.mobiles:hover img{
+    transform: scale(1.1);
+}
+.mobiles:hover .layer{
+    height: 100%;
+}
+.Laptops:hover img{
+    transform: scale(1.1);
+}
+.Laptops:hover .layer{
+    height: 100%;
+}
